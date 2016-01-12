@@ -1,0 +1,83 @@
+.header{
+  padding: 0 0 9px;
+  background: #fff;
+
+}
+
+.header__logo{
+  width:166px;
+  height:58px;
+  background: url(../images/logo.jpg);
+  margin:11px 0 0 29px;
+  float:Left;
+
+}
+
+.header__menu_but{
+  float:left;
+  margin:30px 0 0 32px;
+  cursor:pointer;
+  div{
+    float:left;
+      div{
+        background: #fa6374;
+        height:5px;
+        width:28px;
+        clear:both;
+        border-radius: 2px;
+        margin:0 0 3px 0;
+      }
+  }
+
+  p{
+    font-size: 16px;
+    float:left;
+    color:#424242;
+    margin:2px 0 0 11px;
+  }
+}
+
+.header__town{
+  width: 184px!important;
+  height: 36px;
+  border-radius: 18px / 18px 18px 18px 18px;
+  background-color: #efefef;
+  border:none;
+  margin:21px 0 0 47px;
+  z-index:20;
+  float:left;
+  position: relative;
+}
+
+.header__town .ui-selectmenu-text{
+  color:#747474;
+  font:14px/24px $intro_alt;
+}
+
+#select-town-button .ui-icon{
+  @include sprite($select-arrow);
+  margin-top:-5px;
+}
+
+.ui-selectmenu-menu li{
+  border:none;
+}
+
+.ui-selectmenu-menu li{
+ width:90%;
+  margin:0 auto;
+}
+
+.header {
+  .tel{
+    margin:29px 0 0 46px;
+    float:left;
+    font-size: 20px;
+    color:#424242;
+  }
+}
+
+.header__btn {
+   float:right;
+   margin:20px 29px 0 0;
+}
