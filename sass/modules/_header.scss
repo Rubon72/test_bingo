@@ -37,7 +37,7 @@
   }
 }
 
-.header__town{
+.ui-selectmenu-button{
   width: 184px!important;
   height: 36px;
   border-radius: 18px / 18px 18px 18px 18px;
@@ -49,32 +49,30 @@
   position: relative;
 }
 
-.header__town .ui-selectmenu-text{
+.ui-selectmenu-button .ui-selectmenu-text{
   color:#747474;
-  font:14px/24px $intro_alt;
+  font:14px/24px $intro_alt!important;
 }
 
-#select-town-button .ui-icon{
+.ui-selectmenu-button .ui-icon{
   @include sprite($select-arrow);
-  margin-top:-5px;
+  margin-top:-5px!important;
 }
 
-.ui-selectmenu-menu li{
+.ui-selectmenu-button .ui-selectmenu-menu li{
   border:none;
 }
 
-.ui-selectmenu-menu li{
+.ui-selectmenu-button .ui-selectmenu-menu li{
  width:90%;
   margin:0 auto;
 }
 
-.header {
-  .tel{
-    margin:29px 0 0 46px;
-    float:left;
-    font-size: 20px;
-    color:#424242;
-  }
+.header__tel{
+  margin:29px 0 0 46px;
+  float:left;
+  font-size: 20px;
+  color:#424242;
 }
 
 .header__btn {
