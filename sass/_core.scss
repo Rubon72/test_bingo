@@ -15,10 +15,17 @@
 //===================
 @import "jquery-ui/jquery-ui" ;
 
+//===================
+// owl_carousel
+//===================
+@import "owl_carousel/owl.carousel" ;
+@import "owl_carousel/owl.theme" ;
+
 
 //===================
 // modules
 //===================
 @import "modules/header",
+        "modules/footer",
         "modules/index";
 

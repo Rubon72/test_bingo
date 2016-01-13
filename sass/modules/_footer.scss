@@ -1,0 +1,164 @@
+
+.footer{
+  background: #fff;
+}
+
+.footer_left{
+  float:Left;
+  font:16px $intro_alt_light;
+  margin:22px 0 15px 13px;
+}
+
+
+.footer_right{
+  float:right;
+  font:16px  $intro_alt_light;
+  margin:23px 27px 0 0;
+}
+
+.footer__pay{
+  float:right;
+}
+
+.footer__pay div{
+  display:inline-block;
+  margin:0 0 0 10px;
+  vertical-align: middle;
+}
+
+.footer__pay_visa{
+  @include sprite($footer_pay_3);
+}
+
+.footer__pay_bank2{
+  @include sprite($footer_pay_2);
+}
+
+.footer__pay_bank1{
+  @include sprite($footer_pay_1);
+}
+
+.footer__soc{
+  text-align: center;
+  padding: 18px 0 0 0;
+  width:100%;
+
+}
+
+.footer__soc a{
+  width:30px;
+  display: inline-block;
+  vertical-align: middle;
+  height:30px;
+  margin:0 3px;
+  border-radius: 30px;
+  &:first-child {
+    margin:0 0 0 164px;
+  }
+  &:before {
+    content:"";
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+
+.footer__soc_vk {
+  background:#4c6e94;
+  &:before{
+    @include sprite($footer_soc_vk);
+    margin-top:6px;
+  }
+}
+
+.footer__soc_f {
+  background:#4c64a2;
+  &:before{
+    @include sprite($footer_soc_f);
+    margin-top:6px;
+  }
+}
+
+
+.footer__soc_i {
+  background:#548bb6;
+  &:before{
+    @include sprite($footer_soc_i);
+    margin-top:6px;
+  }
+}
+
+
+.footer__soc_y {
+  background:#ef4e41;
+  &:before{
+    @include sprite($footer_soc_y);
+    margin-top:9px;
+  }
+}
+
+.overlay{
+  display:none;
+  width:100%;
+  background: rgba(255,255,255,0.9);
+  //background: url(../images/overlay.jpg) no-repeat 50% 0;
+  z-index:1002;
+  position: absolute;
+  top:0;
+}
+
+.overlay.active{
+  display:block;
+}
+
+.menuoverlay{
+  display:none;
+  z-index:1003;
+  position: absolute;
+  top:0;
+  width:100%;
+  li{
+    clear: both;
+    padding:0 0px 32px 0;
+    a{
+      text-decoration: none;
+      color:#333333;
+      font-size: 24px;
+
+    }
+    &:hover{
+      text-decoration: underline;
+    }
+  }
+  .menuoverlay__menu{
+    padding: 129px 0 0 69px;
+
+  }
+  &.active{
+    display: block;
+  }
+}
+
+
+.menuoverlay__close{
+  color: #fa6374;
+  font-size: 16px;
+  left: 228px;
+  position: absolute;
+  top: 33px;
+  cursor: pointer;
+  &:before{
+    content: "";
+    display:block;
+    @include sprite($win_close);
+    margin:-5px 14px 0 0;
+    float:left;
+  }
+  &:hover{
+    opacity: 0.8;
+  }
+}
