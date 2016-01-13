@@ -1,0 +1,62 @@
+
+/* intro_caps */
+@font-face {
+  font-family: 'intro_caps';
+  src: url('../fonts/intro_book_caps_regular-webfont.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/intro_book_caps_regular-webfont?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('../fonts/intro_book_caps_regular-webfont.woff') format('woff'), /* Modern Browsers */
+  url('../fonts/intro_book_caps_regular-webfont.ttf')  format('truetype') /* Safari, Android, iOS */
+  /*url('../webfonts/277C36_D_0.svg#svgFontName') format('svg');  Legacy iOS */
+}
+
+$intro_caps: 'intro_caps', sans-serif;
+
+/* intro */
+@font-face {
+  font-family: 'intro';
+  src: url('../fonts/intro_book_regular-webfont.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/intro_book_regular-webfont?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('../fonts/intro_book_regular-webfont.woff') format('woff'), /* Modern Browsers */
+  url('../fonts/intro_book_regular-webfont.ttf')  format('truetype') /* Safari, Android, iOS */
+  /*url('../webfonts/277C36_D_0.svg#svgFontName') format('svg');  Legacy iOS */
+}
+
+$intro: 'intro', sans-serif;
+
+/* intro_alt */
+@font-face {
+  font-family: 'intro_alt';
+  src: url('../fonts/intro_regular_alt_regular-webfont.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/intro_regular_alt_regular-webfont?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('../fonts/intro_regular_alt_regular-webfont.woff') format('woff'), /* Modern Browsers */
+  url('../fonts/intro_regular_alt_regular-webfont.ttf')  format('truetype') /* Safari, Android, iOS */
+  /*url('../webfonts/277C36_D_0.svg#svgFontName') format('svg');  Legacy iOS */
+}
+
+$intro_alt: 'intro_alt', sans-serif;
+
+/* intro_alt light */
+@font-face {
+  font-family: 'intro_alt_light';
+  src: url('../fonts/intro_light_regular-webfont.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/intro_light_regular-webfont?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('../fonts/intro_light_regular-webfont.woff') format('woff'), /* Modern Browsers */
+  url('../fonts/intro_light_regular-webfont.ttf')  format('truetype') /* Safari, Android, iOS */
+  /*url('../webfonts/277C36_D_0.svg#svgFontName') format('svg');  Legacy iOS */
+}
+
+$intro_alt_light: 'intro_alt_light', sans-serif;
+
+
+
+/* intro_alt light */
+@font-face {
+  font-family: 'intro_book-reg';
+  src: url('../fonts/intro_book_regular-webfont.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/intro_book_regular-webfont?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('../fonts/intro_book_regular-webfont.woff') format('woff'), /* Modern Browsers */
+  url('../fonts/intro_book_regular-webfont.ttf')  format('truetype') /* Safari, Android, iOS */
+  /*url('../webfonts/277C36_D_0.svg#svgFontName') format('svg');  Legacy iOS */
+}
+
+$ibr: 'intro_book-reg', sans-serif;

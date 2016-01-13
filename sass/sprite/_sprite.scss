@@ -1,0 +1,41 @@
+/*
+SCSS variables are information about icon's compiled state, stored under its original file name
+
+.icon-home {
+  width: $icon-home-width;
+}
+
+The large array-like variables contain all information about a single icon
+$icon-home: x y offset_x offset_y width height total_width total_height image_path;
+
+At the bottom of this section, we provide information about the spritesheet itself
+$spritesheet: width height image $spritesheet-sprites;
+*/
+            $face: (128px, 72px, -128px, -72px, 13px, 24px, 363px, 306px, 'sprite.png', 'face', );
+            $in_win8_arrow_left: (128px, 101px, -128px, -101px, 13px, 23px, 363px, 306px, 'sprite.png', 'in_win8_arrow_left', );
+            $in_win8_arrow_left_active: (283px, 59px, -283px, -59px, 13px, 24px, 363px, 306px, 'sprite.png', 'in_win8_arrow_left_active', );
+            $in_win8_arrow_right: (110px, 101px, -110px, -101px, 13px, 23px, 363px, 306px, 'sprite.png', 'in_win8_arrow_right', );
+            $in_win8_arrow_right_active: (110px, 72px, -110px, -72px, 13px, 24px, 363px, 306px, 'sprite.png', 'in_win8_arrow_right_active', );
+            $insta: (245px, 98px, -245px, -98px, 23px, 23px, 363px, 306px, 'sprite.png', 'insta', );
+            $review_soc_1: (110px, 129px, -110px, -129px, 10px, 12px, 363px, 306px, 'sprite.png', 'review_soc_1', );
+            $review_soc_2: (245px, 157px, -245px, -157px, 7px, 13px, 363px, 306px, 'sprite.png', 'review_soc_2', );
+            $review_soc_3: (245px, 126px, -245px, -126px, 12px, 11px, 363px, 306px, 'sprite.png', 'review_soc_3', );
+            $select-arrow: (339px, 207px, -339px, -207px, 20px, 13px, 363px, 306px, 'sprite.png', 'select-arrow', );
+            $vk: (273px, 98px, -273px, -98px, 19px, 23px, 363px, 306px, 'sprite.png', 'vk', );
+            $win3_label_1: (158px, 157px, -158px, -157px, 82px, 37px, 363px, 306px, 'sprite.png', 'win3_label_1', );
+            $win3_label_2: (306px, 147px, -306px, -147px, 50px, 55px, 363px, 306px, 'sprite.png', 'win3_label_2', );
+            $win3_label_3: (0px, 243px, 0px, -243px, 71px, 63px, 363px, 306px, 'sprite.png', 'win3_label_3', );
+            $win3_label_4: (306px, 0px, -306px, 0px, 57px, 82px, 363px, 306px, 'sprite.png', 'win3_label_4', );
+            $win3_label_5: (306px, 87px, -306px, -87px, 52px, 55px, 363px, 306px, 'sprite.png', 'win3_label_5', );
+            $win3_label_5_1: (155px, 0px, -155px, 0px, 146px, 54px, 363px, 306px, 'sprite.png', 'win3_label_5_1', );
+            $win3_label_5_2: (0px, 157px, 0px, -157px, 60px, 81px, 363px, 306px, 'sprite.png', 'win3_label_5_2', );
+            $win3_label_5_3: (0px, 0px, 0px, 0px, 150px, 67px, 363px, 306px, 'sprite.png', 'win3_label_5_3', );
+            $win3_label_5_4: (0px, 72px, 0px, -72px, 105px, 80px, 363px, 306px, 'sprite.png', 'win3_label_5_4', );
+            $win3_label_5_5: (155px, 59px, -155px, -59px, 85px, 80px, 363px, 306px, 'sprite.png', 'win3_label_5_5', );
+            $win3_label_6: (65px, 157px, -65px, -157px, 88px, 55px, 363px, 306px, 'sprite.png', 'win3_label_6', );
+            $win7-list-arrow: (245px, 59px, -245px, -59px, 33px, 34px, 363px, 306px, 'sprite.png', 'win7-list-arrow', );
+            $yout: (306px, 207px, -306px, -207px, 28px, 20px, 363px, 306px, 'sprite.png', 'yout', );
+        $spritesheet-sprites: ($face, $in_win8_arrow_left, $in_win8_arrow_left_active, $in_win8_arrow_right, $in_win8_arrow_right_active, $insta, $review_soc_1, $review_soc_2, $review_soc_3, $select-arrow, $vk, $win3_label_1, $win3_label_2, $win3_label_3, $win3_label_4, $win3_label_5, $win3_label_5_1, $win3_label_5_2, $win3_label_5_3, $win3_label_5_4, $win3_label_5_5, $win3_label_6, $win7-list-arrow, $yout, );
+        $spritesheet: (363px, 306px, 'sprite.png', $spritesheet-sprites, );
+
+

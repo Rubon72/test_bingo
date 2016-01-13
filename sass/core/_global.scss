@@ -1,0 +1,47 @@
+body {
+    overflow-x: hidden;
+    transition: all 0.1s ease;
+    font-family: $intro_alt;
+    box-sizing: border-box;
+    background:url(../images/index.jpg) no-repeat 50% 0;
+  //background:#333!important;
+    iframe { display: none; }
+}
+
+
+
+
+.wrp{
+  width:100%;
+  min-width:1000px;
+  margin:0 auto;
+  overflow:hidden;
+  clear:both;
+}
+
+
+.c{
+  width:1000px;
+  margin:0 auto;
+  position:relative;
+  clear:both;
+  overflow:hidden;
+}
+
+.btn{
+  width: 117px;
+  height: 40px;
+  -moz-border-radius: 20px / 20px 20px 20px 20px;
+  -webkit-border-radius: 20px / 20px 20px 20px 20px;
+  border-radius: 20px / 20px 20px 20px 20px;
+  background-color: #f96374;
+  text-align:center;
+  color:#fff;
+  font-size: 16px;
+  line-height: 41px;
+  cursor:pointer;
+}
+
+.btn:hover{
+  background-color: rgba(249,79,116,0.8);
+}

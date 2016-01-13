@@ -1,0 +1,193 @@
+/* ======================================================================================= */
+/* Core Global Styles */
+/* Form Elements */
+input, select, textarea, button {
+    font: 12px Arial, Helvetica, sans-serif;
+    vertical-align: middle;
+    color: #444;
+}
+
+input.input-text, select, textarea {
+    background: #fff;
+    border: 1px solid #c7c7c7; }
+
+input.input-text, textarea {
+    padding: 2px 2px;
+}
+
+//==================
+// select
+//==================
+select {
+    padding: 1px;
+
+    option { padding-right: 10px; }
+
+    &.multiselect option {
+        padding: 2px 2px;
+        border-bottom: 1px solid #bbb;
+    }
+
+    &.multiselect option:last-child { border-top: 0; }
+}
+
+//==================
+// textarea
+//==================
+textarea {
+    overflow: auto;
+    resize: vertical;
+
+    &.default-value {
+        color: #ddd;
+    }
+}
+
+//==================
+// input
+//==================
+input {
+    outline: none;
+
+    &.radio {
+        margin-right: 3px;
+        margin-top: 2px;
+        vertical-align: top;
+        font-size: 10px;
+    }
+
+    &.checkbox {
+        margin-right: 3px;
+        font-size: 11px;
+        margin-top: 2px;
+        vertical-align: top;
+    }
+
+    &.qty {
+        width: 2.5em;
+    }
+
+    &.disabled {
+        background: #f6f6f6;
+        color: #bbb;
+    }
+}
+
+//==================
+// button
+//==================
+.button {
+    display: block;
+    width: 100%;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: none;
+    overflow: visible;
+    cursor: pointer;
+    vertical-align: middle;
+    height: 60px;
+    outline: none;
+
+    &[disabled] { opacity: 0.7; }
+
+    &:active {
+        bottom: -1px;
+        right: -1px;
+        position: relative;
+        z-index: 2;
+    }
+
+    &.button__grenn {
+        background: #c1d62e;
+    }
+
+    &.button__face {
+        background: #5fbff6;
+        
+        span { color: #fff; }
+    }
+
+    &.button__black {
+        background: #000000;
+        color: #ffffff;
+    }
+
+    &.btn-small span {
+        font-size: 11px;
+        line-height: 14px;
+        padding: 1px 9px 0;
+    }
+
+    &.disabled {
+        cursor: default;
+        bottom: 0;
+        right: 0;
+        color: #bbb;
+    }
+}
+
+//====================
+// form-list
+//====================
+.form-list {
+
+}
+
+/* fieldset */
+.fieldset {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 13px;
+}
+
+/* text-input */
+.text-input {
+    display: block;
+    width: 100%;
+    height: 25px;
+    line-height: 25px;
+    padding-left: 5px;
+    box-sizing: border-box;
+    font-size: 12px;
+    font-weight: bold;
+    color: #000;
+    border: none;
+    border-bottom: 1px solid #222222;
+    box-shadow: inset 0 0 0 20px #ffffff;
+    border-radius: 0;
+
+    @include placeholder {
+        color: #949494;
+        text-transform: uppercase;
+        font-weight: normal;
+    }
+
+    &.validation-failed {
+        border: none;
+        border-bottom: 1px solid #ff0204;
+    }
+
+    &.validation-failed ~ .validation-advice {
+        position: absolute;
+        top: 100%;
+        width: 100%;
+        text-align: left;
+        margin: 0;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+}
+
+/* validation-advice */
+.validation-advice {
+    display: block;
+    color: red;
+    font-size: 12px;
+    padding: 2px 0;
+}
+

@@ -1,0 +1,587 @@
+.index-title{
+  text-align:center;
+  color:#333333;
+  font-size: 30px;
+}
+
+.win1{
+  background: url(../images/win1.jpg) no-repeat 50% 0/cover;
+}
+
+.win1 .c{
+  display:table;
+}
+
+.win1__in{
+  display:table-cell;
+  height: 490px;
+  vertical-align: middle;
+}
+
+.win1__title{
+  color:#fff;
+  font-size: 74px;
+  font-family:  $ibr;
+  text-align:center;
+  letter-spacing: 2.8px;
+  padding:0 0 12px 0;
+}
+
+.win1__text{
+  color:#fff;
+  font-size: 24px;
+  text-align:center;
+  font-family: $ibr;
+  line-height: 29px;
+}
+
+.win1__all-but{
+  width:100%;
+  text-align:center;
+  padding:45px 0 27px;
+}
+
+.win1__all-but *{
+  text-align:center;
+  display:inline-block;
+  margin:0 17px;
+  font-size: 21px;
+  width:auto;
+  padding:0 55px;
+  background-color: rgba(249,79,116,0.8);
+
+}
+
+.win1__all-but *:hover{
+  background-color: rgba(249,79,116,0.6);
+}
+
+.win2{
+  padding:16px 0 11px;
+  background: #fff;
+  text-align:center;
+}
+
+.win2__vk div:before{
+  @include sprite($vk);
+}
+
+.win2__intagr div:before{
+  @include sprite($insta);
+}
+
+.win2__face div:before{
+  @include sprite($face);
+}
+
+.win2__youtube div:before{
+  @include sprite($yout);
+}
+
+
+.win2__soc {
+  width:172px;
+  margin:0 9px;
+  display:inline-block;
+  text-decoration:none;
+  div {
+    width: 48px;
+    height: 48px;
+    display:table-cell;
+    vertical-align: middle;
+    background-color:#b6b6b6;
+    border-radius: 48px;
+    overflow: hidden;
+    text-align:center;
+    &:before{
+      content:"";
+      display: block;
+      margin:0 auto;
+    }
+  }
+
+  &:hover div{
+    background: #4c64a2;
+  }
+
+  &:hover p{
+    color: #4c64a2;
+  }
+}
+
+
+.win2__soc>p{
+  color:#b6b6b6;
+  font-siz:16px;
+  display:table-cell;
+  padding:15px 0 0 9px;
+}
+
+.win3{
+  padding:48px 0 57px 20px;
+  background: #f7f7f7;
+}
+
+.win3__title{
+  padding:0 0 30px 0;
+}
+
+.win3__text{
+  text-align:center;
+  color:#333333;
+  font-size: 16px;
+  width:620px;
+  margin:0 auto;
+  line-height:19px;
+}
+
+.win4{
+  padding:42px 0 48px 20px;
+  background: #ffffff;
+}
+
+.win4__title{
+  padding:0 0 30px 0;
+}
+
+.win4__text{
+  text-align:center;
+  color:#333333;
+  font-size: 24px;
+  line-height:19px;
+  padding:0 0 50px 0;
+}
+
+.win4__text sup{
+  color:#333333;
+  font-size: 14px;
+  position:relative;
+  top:-8px;
+}
+
+.win4__items{
+  text-align:center;
+
+}
+
+.win4__item {
+  width:131px;
+  margin:0 9px;
+  display:inline-block;
+  text-decoration:none;
+  div {
+    width: 128px;
+    height: 128px;
+    display:table-cell;
+    vertical-align: middle;
+    border:1px solid #fa6374;
+    border-radius: 128px;
+    overflow: hidden;
+    text-align:center;
+    &:before{
+      content:"";
+      display: block;
+      margin:0 auto;
+    }
+  }
+
+
+}
+
+
+.win4__item>p{
+  color:#333333;
+  font-size:18px;
+  display:block;
+  padding:27px 0 0 0;
+}
+
+.win4__item_1 {
+  div:before {
+    @include sprite($win3_label_1);
+  }
+}
+
+.win4__item_2{
+  div:before {
+    @include sprite($win3_label_2);
+  }
+}
+
+.win4__item_3{
+  div:before {
+    @include sprite($win3_label_3);
+  }
+}
+
+.win4__item_4{
+  div:before {
+    @include sprite($win3_label_4);
+  }
+}
+
+.win4__item_5{
+  div:before {
+    @include sprite($win3_label_5);
+  }
+}
+
+.win4__item_6{
+  div:before {
+    @include sprite($win3_label_6);
+  }
+}
+
+.win4__items{
+  text-align:center;
+}
+
+
+.win5{
+  background: url(../images/win5-bg.jpg) no-repeat 50% 0/cover;
+  color:#fff;
+  font-size: 29px;
+  text-align:center;
+  padding:49px 0 16px;
+}
+
+.win5__title{
+  color:#fff;
+  padding:0px 0 18px 0;
+}
+.win5__items{
+  text-align:center;
+  margin:0 0 -64px 0;
+}
+
+.win5__item {
+  width:210px;
+  margin:0 35px 66px;
+  display:inline-block;
+  text-decoration:none;
+  vertical-align: top;
+  div {
+    width: 210px;
+    height: 120px;
+    display:table-cell;
+    vertical-align: middle;
+    border-radius: 128px;
+    overflow: hidden;
+    text-align:center;
+    &:before{
+      content:"";
+      display: block;
+      margin:0 auto;
+    }
+  }
+
+
+}
+
+
+.win5__item>p{
+  color:#fff;
+  font-size:18px;
+  display:block;
+  text-align:center;
+  padding:6px 0 0 0;
+}
+
+
+
+.win5__item_1 {
+  div:before {
+      @include sprite($win3_label_5_1);
+  }
+}
+
+.win5__item_2{
+  div:before {
+    @include sprite($win3_label_5_2);
+  }
+}
+
+.win5__item_3{
+  div:before {
+    @include sprite($win3_label_5_3);
+  }
+}
+
+.win5__item_4{
+  div:before {
+    @include sprite($win3_label_5_4);
+  }
+}
+
+.win5__item_5{
+  div:before {
+    @include sprite($win3_label_5_5);
+  }
+}
+
+.win5__items{
+  vertical-align:top;
+
+}
+
+.win6__title{
+  padding:51px 0 66px;
+
+}
+
+.win6__items{
+  text-align:center;
+  padding:0 0 60px 0;
+}
+
+.win6-item{
+  display:inline-block;
+  margin:0 14px;
+}
+
+.win6-item p{
+  font: 60px/38px $intro_alt_light;
+  color:#fa6374;
+  float:left;
+}
+
+.win6-item div{
+  font-size: 18px;
+  color:#303030;
+  float:left;
+  width:175px;
+  padding:0 0 0 18px;
+  text-align:left;
+  line-height: 20px;
+}
+
+.win6-btn{
+  width:298px;
+  font-size:19px;
+  margin:0 auto;
+}
+
+.win6{
+  padding:0 0 55px 0;
+  background: #fff;
+}
+
+.win7{
+  background: url(../images/win7-bg.jpg) no-repeat 50% 0/cover;
+  padding:0 0 38px 0;
+}
+
+.win7__title{
+  padding:51px 0 18px;
+}
+
+.win7__text {
+  color: #333333;
+  font-size: 19px;
+  line-height: 19px;
+  margin: 0 auto;
+  text-align: center;
+  width: 585px;
+}
+
+.win7__list {
+
+}
+
+.win7-list{
+  ul{
+    width:806px;
+    margin:38px 0 0 78px;
+
+    li{
+      padding:7px 0 8px 48px;
+      overflow:hidden;
+      clear:both;
+      font-size: 17px;
+
+      &:before{
+        content:"";
+        display:block;
+        @include sprite($win7-list-arrow);
+        float:left;
+        margin: -7px 14px 0 -47px;
+      }
+
+      span{
+        color:#fa6374;
+        font-size: 17px;
+      }
+    }
+  }
+}
+
+.win8__title {
+  padding: 57px 0 54px;
+}
+
+.win8{
+  background: #fff;
+  padding:0 0 69px 0;
+}
+
+.win8-car{
+  height:167px;
+  overflow:hidden;
+  max-width:100%;
+}
+
+.win8__slider    {
+  overflow:hidden;
+  position:relative;
+  width:855px;
+  margin:0 0 0 73px;
+  height:260px;
+  z-index:2
+}
+
+.win8__slider ul {
+  margin:0;
+  padding:0;
+  height: 190px;
+}
+
+.win8__slider li {
+  float:left;
+  list-style:none;
+  margin:0 44px 0 0;
+}
+
+.win8__slider li img{
+  width:254px;
+  display:block;
+}
+
+.win8-car .controls{
+  width:909px;
+  height:75px;
+  position:relative;
+  margin:-203px 0 0px 42px;
+  position:relative;
+  z-index:1;
+}
+
+.win8-car .prev-slide{
+  display:block;
+  position: absolute;
+  top: 15px;
+  left:0;
+  @include sprite($in_win8_arrow_left);
+  z-index:201;
+}
+
+.win8-car .prev-slide:hover{
+  @include sprite($in_win8_arrow_left_active);
+}
+
+.win8-car .next-slide{
+  display:block;
+  position: absolute;
+  top: 15px;
+  right: 0;
+  width: 40px;
+  height: 57px;
+  cursor: pointer;
+  @include sprite($in_win8_arrow_right);;
+  z-index:201;
+}
+
+.win8-car .next-slide:hover{
+  @include sprite($in_win8_arrow_right_active);
+}
+
+.win9{
+  background: url(../images/win9-bg.jpg) no-repeat 50% 0/cover;
+  padding:0 0 6px;
+}
+
+.win9__title{
+  padding: 44px 0 49px;
+}
+
+.review__photo{
+  width:102px;
+  height:102px;
+  border-radius:110px;
+  float:left;
+  overflow:hidden;
+  margin:0 20px 0 0;
+}
+
+.review__photo img{
+  width:100% ;
+}
+
+.win9__items{
+  padding:0px 0 0 74px;
+
+}
+
+.review__item{
+  width:400px;
+  display:inline-block;
+  margin:0 46px 44px 0;
+}
+
+.review__title{
+  color:#333;
+  font-size:18px;
+  line-height: 13px;
+  padding:0 0 5px 0;
+
+}
+
+.review__text{
+  color:#333;
+  font:16px/19px intro_alt_light;
+  padding:0 0 7px 0;
+}
+
+.review__other{
+  width:276px;
+  float:left;
+}
+
+.review__soc a{
+  width:20px;
+  height:20px;
+  border-radius: 20px;
+  margin:0 10px 0 0;
+  background: #c6c6c6;
+  display:block;
+  float:Left;
+  vertical-align: middle;
+  &:before {
+    content: "";
+    display: block;
+    margin: 4px  auto;
+  }
+  &:hover {
+    background: #666;
+  }
+}
+
+.review__soc__one_vk:before{
+  @include sprite($review_soc_1);
+}
+
+.review__soc__one_f:before{
+  @include sprite($review_soc_2);
+}
+
+.review__soc__one_g:before{
+  @include sprite($review_soc_3);
+}
+
+.win10{
+  background: rgba(25,255,2,0.3);
+}
+
+.win10__title{
+  padding:49px 0 0 0;
+
+}
